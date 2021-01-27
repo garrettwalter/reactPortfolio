@@ -1,7 +1,37 @@
 body {
-  background-color: rgb(70, 79, 88);
+  background-color: #e6e6e6;
 }
 
 .navbar-bg {
+  background-color: #8a8a8a;
+}
+
+.PIC {
+  width: 100%;
+  height: 100%;
+}
+#resumePIC {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+#icon {
+  height: 50px;
+  width: auto;
+}
+
+#contact {
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 1%;
+  border-style: outset;
+  border-radius: 25px;
   background-color: tan;
+  align-content: center;
+}
+.contactLink{
+  color: black;
 }
