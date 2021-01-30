@@ -9,7 +9,7 @@ function NavTabs() {
 
   return (
 <>
-<nav class="navbar navbar-expand-lg navbar-light navbar-bg">
+<nav class="navbar navbar-expand navbar-light navbar-bg sticky-top">
   <div class="container-fluid">
     <a className="navbar-brand" href="/">GMONEY</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,8 +17,16 @@ function NavTabs() {
     </button>
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav">
-        <li className="nav-item">
-        <Link to="/projects" className={location.pathname === "/projects" ? "nav-link text-primary" : "nav-link text-dark"}>Projects</Link>
+      <li className="nav-item dropdown">
+          <button className="btn nav-link dropdown-toggle text-dark projects-tab" id="navbarDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+            Projects
+          </button>
+          <ul className="dropdown-menu background-drop" aria-labelledby="navbarDropdown">
+            <li><Link to="/graphicdesign" className={location.pathname === "/graphicdesign" ? "nav-link text-info" : "nav-link text-dark"}>GRAPHIC DESIGN</Link></li>
+            <li><Link to="/website" className={location.pathname === "/website" ? "nav-link text-info" : "nav-link text-dark"}>WEB DEVELOPMENT</Link></li>
+            <li><Link to="/socialmedia" className={location.pathname === "/socialmedia" ? "nav-link text-info" : "nav-link text-dark"}>SOCIAL MEDIA MANAGEMENT</Link></li>
+            <li><Link to="/ads" className={location.pathname === "/ads" ? "nav-link text-info" : "nav-link text-dark"}>ADVERTISING STRATEGY</Link></li>
+          </ul>
         </li>
         <li className="nav-item">
         <Link to="/resume" className={location.pathname === "/resume" ? "nav-link text-primary" : "nav-link text-dark"}>Resume</Link>

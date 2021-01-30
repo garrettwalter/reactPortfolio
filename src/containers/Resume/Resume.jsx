@@ -9,8 +9,8 @@ function Resume(props) {
                     <a className="nav-link repo text-center" href="https://resume.io/r/TVTiYCqe2">Click for Resume with working Links</a>
                     <div className="row">
                         <div className="col-sm-12 PIC">
-                            <img id="resumePIC" alt="Resume.1" src="./resume1.png"/>
-                            <img id="resumePIC" alt="Resume.2" src="./resume2.png"/>
+                            <img className="resumePIC rp1" alt="Resume.1" src="./resume1.png"/>
+                            <img className="resumePIC rp2" alt="Resume.2" src="./resume2.png"/>
                         </div>
                     </div>
                 </div>
