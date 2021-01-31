@@ -9,6 +9,17 @@ body {
   background-color: #8a8a8a;
 }
 
+.home-btn {
+  background-color: #8a8a8a;
+  border: none !important;
+}
+
+.logo {
+  color: orange;
+  font-weight: bolder;
+  font: 1.5em cursive;
+}
+
 .PIC {
   width: 100%;
   height: 100%;

@@ -11,7 +11,7 @@ function NavTabs() {
 <>
 <nav class="navbar navbar-expand navbar-light navbar-bg sticky-top">
   <div class="container-fluid">
-    <button><Link to="/" className={location.pathname === "/" ? "nav-link text-dark" : "nav-link text-dark"}>GMONEY</Link></button>
+    <button className="home-btn"><Link to="/" className={location.pathname === "/" ? "nav-link logo" : "nav-link logo"}>GARRETT WALTER</Link></button>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -30,9 +30,6 @@ function NavTabs() {
         </li>
         <li className="nav-item">
         <Link to="/resume" className={location.pathname === "/resume" ? "nav-link text-primary" : "nav-link text-dark"}>Resume</Link>
-        </li>
-        <li className="nav-item">
-        <Link to="/contact" className={location.pathname === "/contact" ? "nav-link text-primary" : "nav-link text-dark"}>Contact</Link>
         </li>
         <li className="nav-item">
       <Link to="/about" className={location.pathname === "/about" ? "nav-link text-primary" : "nav-link text-dark"}>About</Link>
