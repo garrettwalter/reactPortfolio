@@ -1,6 +1,6 @@
 import React from "react";
 import './index.css';
-import { BrowserRouter as Router, Route} from "react-router-dom";
+import { HashRouter as Router, Route} from "react-router-dom";
 import NavTabs from "./containers/NavTabs";
 import Home from "./containers/Home/Home";
 import Projects from "./containers/Projects/Projects";
@@ -11,7 +11,7 @@ import Footer from "./containers/Footer";
 
 const App = () => {
   return (
-      <Router>
+      <Router basename="/">
           <NavTabs />
           <Route exact path="/" component={Home} />
           <Route exact path="/projects" component={Projects} />
