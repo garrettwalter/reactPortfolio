@@ -44,9 +44,15 @@ body {
 }
 
 .top-row {
-  padding-top: 15%;
+  padding-top: 5%;
   overflow: hidden;
   margin-right: 0 !important;
+  justify-content: center;
+}
+
+.me {
+  height: 200px;
+  width: auto;
 }
 .bottom-row {
   margin-bottom: 50px;
