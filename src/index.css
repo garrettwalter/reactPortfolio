@@ -15,9 +15,16 @@ body {
 }
 
 .logo {
-  color: orange;
-  font-weight: bolder;
-  font: 1em cursive;
+  color: rgb(255, 102, 0);
+  font-size: 30px;
+  font-family: Trattatello, fantasy;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  padding: 0;
+}
+
+.repo-btn {
+  justify-self: center;
 }
 
 .PIC {
@@ -41,6 +48,7 @@ body {
 
 .rp2 {
   border-bottom: solid;
+  margin-bottom: 10%;
 }
 
 .contact-container {
@@ -79,6 +87,18 @@ body {
 
 .dropdown-menu {
   background-color: #8a8a8a;
+}
+
+.project-box {
+  margin-top: 10%;
+  padding-bottom: 10%;
+} 
+
+.project-area {
+  min-height: stretch;
+  border: solid;
+  border-color: rgb(255, 102, 0);
+  padding-top: 1.5%;
 }
 
 .footer{
