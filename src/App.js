@@ -16,6 +16,12 @@ const App = () => {
           <Route exact path="/projects" component={Projects} />
           <Route exact path="/resume" component={Resume} />
           <Route exact path="/about" component={About} />
+          <Route exact path="/astronet" component={About} />
+          <Route exact path="/covidcost" component={About} />
+          <Route exact path="/neonpeach" component={About} />
+          <Route exact path="/dayplanner" component={About} />
+          <Route exact path="/budgetapp" component={About} />
+          <Route exact path="/userdirectory" component={About} />
           <Footer/>
       </Router>
     );

@@ -22,10 +22,12 @@ function NavTabs() {
             Projects
           </button>
           <ul className="dropdown-menu background-drop" aria-labelledby="navbarDropdown">
-            <li><Link to="/graphicdesign" className={location.pathname === "/graphicdesign" ? "nav-link text-info" : "nav-link text-dark"}>GRAPHIC DESIGN</Link></li>
-            <li><Link to="/website" className={location.pathname === "/website" ? "nav-link text-info" : "nav-link text-dark"}>WEB DEVELOPMENT</Link></li>
-            <li><Link to="/socialmedia" className={location.pathname === "/socialmedia" ? "nav-link text-info" : "nav-link text-dark"}>SOCIAL MEDIA MANAGEMENT</Link></li>
-            <li><Link to="/ads" className={location.pathname === "/ads" ? "nav-link text-info" : "nav-link text-dark"}>ADVERTISING STRATEGY</Link></li>
+            <li><Link to="/covidcost" className={location.pathname === "/covidcost" ? "nav-link text-info" : "nav-link text-dark"}>Covid Cost</Link></li>
+            <li><Link to="/neonpeach" className={location.pathname === "/neonpeach" ? "nav-link text-info" : "nav-link text-dark"}>Neon Peach</Link></li>
+            <li><Link to="/budgetapp" className={location.pathname === "/budgetapp" ? "nav-link text-info" : "nav-link text-dark"}>Budget App</Link></li>
+            <li><Link to="/userdirectory" className={location.pathname === "/userdirectory" ? "nav-link text-info" : "nav-link text-dark"}>User Directory</Link></li>
+            <li><Link to="/astronet" className={location.pathname === "/astronet" ? "nav-link text-info" : "nav-link text-dark"}>Astronet</Link></li>
+            <li><Link to="/dayplanner" className={location.pathname === "/dayplanner" ? "nav-link text-info" : "nav-link text-dark"}>Day Planner</Link></li>
           </ul>
         </li>
         <li className="nav-item">
