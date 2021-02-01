@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# reactPortfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Table of Contents
 
-## Available Scripts
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Updated GitHub Profile](#Updated-GitHub-Profile)
+- [Updated Resume](#Updated-Resume)
+- [Updated LinkedIn](#Updated-LinkedIn)
+- [License](#license)
 
-In the project directory, you can run:
+## Description
 
-### `npm start`
+This application is my current portfolio. On this site you can read about me, browse my creations, see my resume, and find links to my GitHub, LinkedIn, and my email. This app was built with React. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+[Repository](https://github.com/garrettwalter/reactPortfolio)
+[GitHub-Pages](https://garrettwalter.github.io/reactPortfolio/)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Installation
 
-### `npm test`
+To access this application you must visit this link: [Served via GH-Pages](https://garrettwalter.github.io/reactPortfolio/) or to install visit my GitHub page and locate the repository named "reactPortfolio". Once this repository is cloned to your computer, you will be able to edit the files and/or run it locally with 'npm start'. Any questions can be directed to [Garrett Walter](mailto:gtwalter150@gmail.com). This project can be found here: [GitHub Repository](https://github.com/garrettwalter/reactPortfolio)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Usage
 
-### `npm run build`
+Please browse the application and its files, but do not push any changes you make, they will not be merged.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Updated GitHub Profile
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[GitHub Profile](https://github.com/garrettwalter)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Updated Resume
 
-### `npm run eject`
+[Resume](https://resume.io/r/TVTiYCqe2)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Updated LinkedIn
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[LinkedIn Profile](https://www.linkedin.com/in/garrett-walter-63b2b81b5/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## License
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+This is free and unencumbered software released into the public domain.
 
-## Learn More
+Anyone is free to copy, modify, publish, use, compile, sell, or
+distribute this software, either in source code form or as a compiled
+binary, for any purpose, commercial or non-commercial, and by any
+means.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+In jurisdictions that recognize copyright laws, the author or authors
+of this software dedicate any and all copyright interest in the
+software to the public domain. We make this dedication for the benefit
+of the public at large and to the detriment of our heirs and
+successors. We intend this dedication to be an overt act of
+relinquishment in perpetuity of all present and future rights to this
+software under copyright law.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.
 
-### Code Splitting
+For more information, please refer to <https://unlicense.org>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
