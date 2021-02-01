@@ -6,11 +6,11 @@ body {
 }
 
 .navbar-bg {
-  background-color: #8a8a8a;
+  background-color: #473a5e;
 }
 
 .home-btn {
-  background-color: #8a8a8a;
+  background-color: #473a5e;
   border: none !important;
 }
 
@@ -19,12 +19,22 @@ body {
   font-size: 30px;
   font-family: Trattatello, fantasy;
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-color: rgb(122, 100, 150);
   padding: 0;
 }
 
 .repo-btn {
   justify-self: center;
+  width: fit-content;
+}
+
+.btn-row {
+  justify-content: center;
+}
+
+.btn-garrett {
+  background-color: #473a5e;
+  color: orange;
 }
 
 .PIC {
@@ -86,12 +96,20 @@ body {
 }
 
 .dropdown-menu {
-  background-color: #8a8a8a;
+  background-color: #473a5e;
+}
+
+.grey {
+  color: #e6e6e6 !important;
+}
+
+.blue {
+  color: #473a5e;
 }
 
 .project-box {
-  margin-top: 10%;
-  padding-bottom: 10%;
+  margin-top: 1%;
+  padding-bottom: 100px;
 } 
 
 .project-area {
@@ -104,10 +122,14 @@ body {
 .footer{
   margin-top: 1rem;
   padding: 1rem;
-  color: #e6e6e6;
-  background-color: rgb(66, 66, 66);
+  color: #473a5e;
+  background-color: #473a5e;
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  
 }

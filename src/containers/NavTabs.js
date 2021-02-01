@@ -18,23 +18,23 @@ function NavTabs() {
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav">
       <li className="nav-item dropdown">
-          <button className="btn nav-link dropdown-toggle text-dark projects-tab" id="navbarDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+          <button className="btn nav-link dropdown-toggle grey projects-tab" id="navbarDropdown" data-bs-toggle="dropdown" aria-expanded="false">
             Projects
           </button>
           <ul className="dropdown-menu background-drop" aria-labelledby="navbarDropdown">
-            <li><Link to="/covidcost" className={location.pathname === "/covidcost" ? "nav-link text-info" : "nav-link text-dark"}>Covid Cost</Link></li>
-            <li><Link to="/neonpeach" className={location.pathname === "/neonpeach" ? "nav-link text-info" : "nav-link text-dark"}>Neon Peach</Link></li>
-            <li><Link to="/budgetapp" className={location.pathname === "/budgetapp" ? "nav-link text-info" : "nav-link text-dark"}>Budget App</Link></li>
-            <li><Link to="/userdirectory" className={location.pathname === "/userdirectory" ? "nav-link text-info" : "nav-link text-dark"}>User Directory</Link></li>
-            <li><Link to="/astronet" className={location.pathname === "/astronet" ? "nav-link text-info" : "nav-link text-dark"}>Astronet</Link></li>
-            <li><Link to="/dayplanner" className={location.pathname === "/dayplanner" ? "nav-link text-info" : "nav-link text-dark"}>Day Planner</Link></li>
+            <li><Link to="/covidcost" className={location.pathname === "/covidcost" ? "nav-link text-info" : "nav-link grey"}>Covid Cost</Link></li>
+            <li><Link to="/neonpeach" className={location.pathname === "/neonpeach" ? "nav-link text-info" : "nav-link grey"}>Neon Peach</Link></li>
+            <li><Link to="/budgetapp" className={location.pathname === "/budgetapp" ? "nav-link text-info" : "nav-link grey"}>Budget App</Link></li>
+            <li><Link to="/userdirectory" className={location.pathname === "/userdirectory" ? "nav-link text-info" : "nav-link grey"}>User Directory</Link></li>
+            <li><Link to="/astronet" className={location.pathname === "/astronet" ? "nav-link text-info" : "nav-link grey"}>Astronet</Link></li>
+            <li><Link to="/dayplanner" className={location.pathname === "/dayplanner" ? "nav-link text-info" : "nav-link grey"}>Day Planner</Link></li>
           </ul>
         </li>
         <li className="nav-item">
-        <Link to="/resume" className={location.pathname === "/resume" ? "nav-link text-primary" : "nav-link text-dark"}>Resume</Link>
+        <Link to="/resume" className={location.pathname === "/resume" ? "nav-link text-primary" : "nav-link grey"}>Resume</Link>
         </li>
         <li className="nav-item">
-      <Link to="/about" className={location.pathname === "/about" ? "nav-link text-primary" : "nav-link text-dark"}>About</Link>
+      <Link to="/about" className={location.pathname === "/about" ? "nav-link text-primary" : "nav-link grey"}>About</Link>
         </li>
       </ul>
     </div>
