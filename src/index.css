@@ -68,8 +68,9 @@ body {
 }
 
 #icon {
-  height: 50px;
+  height: 40px;
   width: auto;
+  padding: 5px;
 }
 
 #contact {
@@ -119,9 +120,16 @@ body {
   padding-top: 1.5%;
 }
 
+.about-box {
+  border: solid;
+  margin-top: 6%;
+  padding: 3%;
+  border-color: rgb(255, 102, 0);
+}
+
 .footer{
-  margin-top: 1rem;
-  padding: 1rem;
+  padding-top: 5px;
+  padding-bottom: 5px;
   color: #473a5e;
   background-color: #473a5e;
   position: fixed;
