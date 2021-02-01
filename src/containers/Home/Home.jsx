@@ -5,6 +5,7 @@ function Home(props) {
         <>
   
         <div className="row blue-bg top-row grey">
+            <img className="justify-self-center" alt="me" src="./me.jpg"/>
             <h3 className="text-center">Personal Projects</h3>
         </div>
         <div className="row blue-bg btn-row py-3">
