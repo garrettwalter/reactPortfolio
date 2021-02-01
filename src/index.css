@@ -30,11 +30,26 @@ body {
 
 .btn-row {
   justify-content: center;
+  margin-right: 0 !important;
 }
 
 .btn-garrett {
   background-color: #473a5e;
   color: orange;
+}
+
+.btn-walter {
+  background-color: #e6e6e6;
+  color: orange;
+}
+
+.top-row {
+  padding-top: 15%;
+  overflow: hidden;
+  margin-right: 0 !important;
+}
+.bottom-row {
+  margin-bottom: 50px;
 }
 
 .PIC {
@@ -106,6 +121,10 @@ body {
 
 .blue {
   color: #473a5e;
+}
+
+.blue-bg {
+  background-color: #473a5e;
 }
 
 .project-box {
