@@ -10,7 +10,7 @@ function About(props) {
                 <img src="./me.jpg" alt="me"/>
             </div>
             <div className="row">
-                <h3 className="text-center blue">
+                <h5 className="text-center blue py-2">
                 Full-Stack web developer with developed skills in 
                                     JavaScript, MongoDB, mySQL, React.js, HTML & CSS, 
                                      Node.js, Express.js, Sequilize.js, NPM, bcrypt.js, 
@@ -23,13 +23,13 @@ function About(props) {
                                      I engage myself in, the aim is to engage the target 
                                      audience with impactful data, and a user-friendly 
                                      design.
-                </h3>
+                </h5>
             </div>
             <div className="row justify-content-center">
                 <img src="./me2.JPG" alt="me standing" />
             </div>
             <div className="row">
-                <h3 className="text-center blue">Hi, i'm Garrett</h3>
+                <p className="text-center blue mb-3 pb-3">This App was created with REACT</p>
             </div>
         </div>
     );
